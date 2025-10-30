@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Edificio;
 use App\Http\Requests\StoreEdificioRequest;
 use App\Http\Requests\UpdateEdificioRequest;
+use App\Models\Aula;
 
 class EdificioController extends Controller
 {
@@ -62,5 +63,10 @@ class EdificioController extends Controller
     public function destroy(Edificio $edificio)
     {
         //
+    }
+
+    public function ConexionAulas(Aula $aula)
+    {
+        
     }
 }
